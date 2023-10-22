@@ -1,0 +1,36 @@
+.box .list ul li .button_section_req {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.box .list ul li .button_section_req .btn {
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-right: 10px;
+    border: 1px solid transparent;
+    padding: 1px 6px;
+    border-radius: 5px;
+}
+
+.box .list ul li .button_section_req .confirm {
+    border: 1px solid #32375C;
+    background: #32375C;
+    color: rgb(133, 133, 133);
+}
+
+.box .list ul li .button_section_req .confirm:hover {
+    transition: all linear 0.4s;
+    color: rgb(255, 255, 255);
+}
+
+.box .list ul li .button_section_req .cancel {
+    transition: all linear 0.4s;
+}
+
+.box .list ul li .button_section_req .cancel:hover {
+    font-weight: 700;
+}

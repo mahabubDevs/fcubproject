@@ -1,0 +1,99 @@
+.box {
+    height: 43vh;
+    margin: 20px 10px 0 10px;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 6px 4px 29px -6px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 6px 4px 29px -6px rgba(0, 0, 0, 0.21);
+    box-shadow: 6px 4px 29px -6px rgba(0, 0, 0, 0.21);
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+}
+
+.box .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.box .title .dot {
+    cursor: pointer;
+}
+
+.box .search {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+
+.box .search .sb {
+    font-size: 20px;
+}
+
+.box .search .text {
+    width: 80%;
+    height: 30px;
+    border: 0px solid transparent;
+    background: transparent;
+}
+
+.box .search .text:focus {
+    outline: none;
+}
+
+
+.box .list {
+    height: 33vh;
+    overflow-y: scroll;
+}
+
+.box .list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.box .list ul li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box .list ul li .left {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.box .list ul li .left .text h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #222222;
+}
+
+.box .list ul li .left .text p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #7A7A7A;
+}
+
+.box .list ul li .left img {
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+}
+
+.box .list ul li .right .dot {
+    cursor: pointer;
+}
+
+.box .list .creategrouplink{
+    color: blue;
+    transition: all linear 0.4s;
+}
+.box .list .creategrouplink:hover{
+    cursor: pointer;
+}

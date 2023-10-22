@@ -1,0 +1,151 @@
+.navcontainer {
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbarbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    -webkit-box-shadow: 6px 4px 29px -6px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 6px 4px 29px -6px rgba(0, 0, 0, 0.21);
+    box-shadow: 6px 4px 29px -6px rgba(0, 0, 0, 0.21);
+    position: fixed;
+    z-index: 2000;
+    background: white;
+}
+
+.navbarbox .navleft {
+    margin-left: 5%;
+}
+
+.navbarbox .navleft img {
+    max-height: 38px;
+    max-width: 38px;
+    margin: 5px 0;
+}
+
+.navcontainer .navbar h3 {
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+
+.navcontainer .navbar ul li {
+    margin: 20px 50px;
+}
+
+.navcontainer .navbarbox .navright img {
+    max-height: 38px;
+    max-width: 38px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.navcontainer .navbarbox .navright img:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, 1);
+}
+
+.navcontainer .icon {
+    justify-content: center;
+    padding: 5px;
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    color: #1E1E1E;
+    border-radius: 5px;
+
+}
+
+.navcontainer .navright {
+    position: relative;
+    margin-right: 15%;
+}
+
+.navcontainer .navbar {
+    background: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top: 70px;
+    right: 0;
+    border-radius: 10px;
+    -webkit-box-shadow: 6px 4px 29px -6px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 6px 4px 29px -6px rgba(0, 0, 0, 0.21);
+    box-shadow: 6px 4px 29px -6px rgba(0, 0, 0, 0.21);
+    z-index: 100;
+}
+
+.navcontainer .navbar .user .text>p {
+    border-bottom: 0.1px solid transparent;
+    transition: all linear 0.1s;
+}
+
+.navcontainer .navbar .user .text>p:hover {
+    cursor: pointer;
+    color: #32375C;
+    border-bottom: 0.1px solid #32375c8d;
+}
+
+.navcontainer .navbar .active {
+    justify-content: center;
+    padding: 5px;
+    text-decoration: none;
+    border: 1px solid #32375C;
+    color: #ffffff;
+    border-radius: 5px;
+    background: #32375C;
+}
+
+.navcontainer .navbar .user {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 200px;
+}
+
+.navcontainer .navbar .user .left {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.navcontainer .navbar .user .left img {
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+}
+
+.navcontainer .navbar .user .right {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.navcontainer .navbar .user .right .settings,
+.navcontainer .navbar .user .right .logout {
+    height: 20px;
+    width: 20px;
+    background: #ffffff;
+    border: 1px solid white;
+    border-radius: 50%;
+    transition: all linear 0.4s;
+}
+
+.navcontainer .navbar .user .right .settings:hover {
+    background: #32375C;
+    border: 1px solid #32375C;
+    border-radius: 50%;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+.navcontainer .navbar .user .right .logout:hover {
+    background: #32375C;
+    border: 1px solid #32375C;
+    border-radius: 50%;
+    color: #ffffff;
+    cursor: pointer;
+}

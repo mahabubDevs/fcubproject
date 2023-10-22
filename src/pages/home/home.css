@@ -1,0 +1,379 @@
+.container {
+    width: 850px;
+    margin: 0 auto;
+    font-family: 'Barlow', sans-serif;
+}
+
+.container>.profile {
+    margin-top: 84px;
+    -webkit-box-shadow: 6px 4px 29px -6px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 6px 4px 29px -6px rgba(0, 0, 0, 0.21);
+    box-shadow: 6px 4px 29px -6px rgba(0, 0, 0, 0.21);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.profile .profileinfo .propic {
+    position: relative;
+}
+
+.profile .profileinfo .propic>img {
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    bottom: 25px;
+    left: 25px;
+    border: 10px solid white;
+}
+
+.profile .profileinfo .propic .layer {
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    bottom: 25px;
+    left: 25px;
+    border: 10px solid white;
+    z-index: 10;
+}
+
+.profile .profileinfo .propic .layer:hover {
+    background: #00000056;
+}
+
+.profile .profileinfo .propic .layer .up {
+    height: 50%;
+}
+
+.profile .profileinfo .propic .layer .down {
+    height: 50%;
+    border-bottom-right-radius: 50% 100%;
+    border-bottom-left-radius: 50% 100%;
+    transition: all linear 0.4s;
+}
+
+.profile .profileinfo .propic .layer .down:hover {
+    background: #000000ac;
+    cursor: pointer;
+}
+
+.profile .profileinfo .propic .layer .down:hover .btn {
+    visibility: visible;
+}
+
+
+.profile .profileinfo .propic .layer .down .btn {
+    margin-left: 20px;
+    margin-top: 20px;
+    visibility: hidden;
+    color: white;
+    border: 1px solid white;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.profile .profileinfo .propic .layer .down .btn .icon {
+    font-size: 20px;
+    margin-right: 7px;
+}
+
+.coverphoto {
+    width: 100%;
+    height: 180px;
+    position: relative;
+}
+
+.coverphoto .editbtn {
+    position: absolute;
+    top: 20px;
+    right: 57px;
+}
+
+.coverphoto .editbtn .edittext {
+    padding-left: 10px;
+}
+
+.coverphoto img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.profileinfo {
+    display: flex;
+
+}
+
+.profileinfo .propic {
+    width: 30%;
+}
+
+.profileinfo .info {
+    width: 70%;
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+
+.profileinfo .info .nameloc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profileinfo .info .nameloc>h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.profileinfo .info .nameloc>h2 .nameicon {
+    padding-left: 28px;
+    color: #D8C281;
+    font-size: 16px;
+}
+
+.profileinfo .info .nameloc .loc .locicon {
+    color: #0275B1;
+}
+
+.profileinfo .info .nameloc .loc .locedit {
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.profileinfo .info .nameloc h2 {
+    width: 40%;
+}
+
+.profileinfo .info .nameloc .loc {
+    padding-right: 57px;
+}
+
+.profileinfo .info .details {
+    width: 583px;
+    margin-top: 10px;
+    margin-bottom: 14px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.container .section {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin-top: 21px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.container .section .profile {
+    width: 33.3333%;
+    padding-top: 11px;
+    padding-bottom: 15px;
+    border: 1px solid #E7E7E7;
+    border-top-left-radius: 10px;
+    text-decoration: none;
+    color: #181818;
+    text-transform: uppercase;
+}
+
+.container .section .profile:hover {
+    color: white;
+    background: #0076b586;
+}
+
+.container .section .friends {
+    width: 33.3333%;
+    padding-top: 11px;
+    padding-bottom: 15px;
+    border: 1px solid #E7E7E7;
+    border-left: none;
+    border-right: none;
+    text-decoration: none;
+    color: #181818;
+    text-transform: uppercase;
+    transition: all linear 0.4s;
+}
+
+.container .section .friends:hover {
+    color: white;
+    background: #0076b586;
+}
+
+.container .section .post {
+    width: 33.3333%;
+    padding-top: 11px;
+    padding-bottom: 15px;
+    border: 1px solid #E7E7E7;
+    border-top-right-radius: 10px;
+    text-decoration: none;
+    color: #181818;
+    text-transform: uppercase;
+    transition: all linear 0.4s;
+}
+
+.container .section .post:hover {
+    color: white;
+    background: #0076b586;
+}
+
+.container .section .active {
+    background: #0077B5;
+    color: white;
+}
+
+.container .about {
+    margin-top: 30px;
+    padding: 30px;
+    -webkit-box-shadow: 6px 4px 29px -6px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 6px 4px 29px -6px rgba(0, 0, 0, 0.21);
+    box-shadow: 6px 4px 29px -6px rgba(0, 0, 0, 0.21);
+    border-radius: 5px;
+}
+
+.container .about h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.container .about p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.container .projects {
+    margin-top: 30px;
+    padding: 30px;
+    -webkit-box-shadow: 6px 4px 29px -6px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 6px 4px 29px -6px rgba(0, 0, 0, 0.21);
+    box-shadow: 6px 4px 29px -6px rgba(0, 0, 0, 0.21);
+    border-radius: 5px;
+}
+
+.container .projects h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.container .projects h4 .projectcount {
+    color: #747474;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.container .projects .pic {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.experiance {
+    margin-top: 30px;
+    padding: 30px;
+    -webkit-box-shadow: 6px 4px 29px -6px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 6px 4px 29px -6px rgba(0, 0, 0, 0.21);
+    box-shadow: 6px 4px 29px -6px rgba(0, 0, 0, 0.21);
+    border-radius: 5px;
+}
+
+.experiance .barbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.experiance .barbox .expbtn {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.experiance .barbox .expbtn:hover {
+    color: #0077B5;
+    cursor: pointer;
+}
+
+.experiance>h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.experiance .expfield {
+    margin-top: 22px;
+    display: flex;
+    border-bottom: 1px solid #F4F4F4;
+    padding-bottom: 25px;
+}
+
+.experiance .expfield:last-child {
+    border-bottom: none;
+}
+
+.experiance .expfield .explogo {
+    align-items: center;
+
+}
+
+.experiance .expfield .explogo img {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+}
+
+.experiance .expfield .expinfo {
+    padding-left: 20px;
+}
+
+.experiance .expfield .expinfo .details {
+    text-align: justify;
+}
+
+.experiance .expfield .expinfo .exptitle {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.experiance .expfield .expinfo .exptitle .expicon {
+    margin-right: 10px;
+    font-size: 16px;
+    transition: all linear 0.4s;
+}
+
+.experiance .expfield .expinfo .exptitle .expicon:hover {
+    color: #0077B5;
+    cursor: pointer;
+}
+
+.experiance .expfield .expinfo .expbox {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.experiance .expfield .expinfo .expbox {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.experiance .expfield .expinfo .expbox .rightcolor {
+    color: #0275B1;
+}
+
+.experiance .expfield .expinfo .expdetails {
+    width: 719px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: justify;
+}

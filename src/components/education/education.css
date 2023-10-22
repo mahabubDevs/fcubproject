@@ -1,0 +1,97 @@
+.education {
+    margin-top: 30px;
+    padding: 30px;
+    -webkit-box-shadow: 6px 4px 29px -6px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 6px 4px 29px -6px rgba(0, 0, 0, 0.21);
+    box-shadow: 6px 4px 29px -6px rgba(0, 0, 0, 0.21);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.education .edufield {
+    display: flex;
+}
+
+.education .edufield .edulogo>img {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+}
+
+.education .edufield .eduinfo {
+    padding-left: 20px;
+    width: 100%;
+}
+
+.education .edufield {
+    margin-top: 22px;
+    display: flex;
+    border-bottom: 1px solid #F4F4F4;
+    padding-bottom: 25px;
+}
+
+.education .edufield:last-child {
+    border-bottom: none;
+}
+
+.education .edufield .eduinfo .title {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.education .edufield .eduinfo .degree {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+.education .edufield .eduinfo .year {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.education .edufield .eduinfo .courses {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.education .barbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.education .barbox .edubtn {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.education .barbox .edubtn:hover {
+    color: #0077B5;
+    cursor: pointer;
+}
+
+.education .barbox>h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.education .eduinfo .titlebox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education .eduinfo .titlebox .eduicon {
+    margin-right: 10px;
+    font-size: 16px;
+    transition: all linear 0.4s;
+}
+
+.education .eduinfo .titlebox .eduicon:hover {
+    color: #0077B5;
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+.register {
+    margin: auto;
+    text-align: center;
+    width: 497px;
+    padding: 140px 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.register h3 {
+    margin: 42px 0 11px 0;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.register p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #11175D;
+    margin-bottom: 30px;
+}
+
+.register .text {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.register button {
+    border-radius: 30px;
+    height: 60px;
+    text-transform: capitalize;
+}
