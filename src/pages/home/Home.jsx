@@ -496,7 +496,7 @@ const Home = () => {
                     </div>
                     <div className="info">
                         <div className="nameloc">
-                            <h2>{userData.displayName}<BiLogoLinkedinSquare className='nameicon' /></h2>
+                            <h2>{userData.displayName}</h2>
                             <div className="loc"> <FaLocationArrow className='locicon' /> <span className='locedit'>{currentloginUser.address}</span></div>
                         </div>
                         <div className="details">
